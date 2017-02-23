@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace C_Back_60CA
+namespace C_Back_60CA.CBankUnbalanceList
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CBankUnbalaceListView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CBankUnbalaceListView : UserControl
     {
-        public MainWindow()
+        public CBankUnbalaceListView()
         {
             InitializeComponent();
-            this.DataContext = new MainWindowViewModel();
         }
     }
 }
